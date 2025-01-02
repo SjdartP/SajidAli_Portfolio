@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sajid ali's Portfolio</title>
+    <link rel="icon" href="prof/lo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+</head>
+
+<body>
+    <!-- home function -->
+    <div id="header">
+        <div class="container box">
+            <nav>
+                <img src="prof/Frame 68.png" class="logo" width="200px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#photographs">Arts</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <div class="setdiv  animate__animated animate__slideInUp">
+                    <h2>Hi, I'm <br></h2>
+                    <h1><span>Sajid Ali</span></h1>
+                    <p>Frontend - ui/ux designer- Artist</p>
+                </div>
+
+            </div>
+            <div class="notification" onclick="window.location.href = 'resume.pdf';">
+                <p>Would you like to check my CV ?😊</p>
+                <span class="notification__progress"></span>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/menu.js"></script>
+    <!-- home function -->
+
+    <div id="progress">
+        <span id="progress-value" class="gotoTop">
+            <?xml version="1.0" ?>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                    d="M128.4,189.3L233.4,89c5.8-6,13.7-9,22.4-9c8.7,0,16.5,3,22.4,9l105.4,100.3c12.5,11.9,12.5,31.3,0,43.2  c-12.5,11.9-32.7,11.9-45.2,0L288,184.4v217c0,16.9-14.3,30.6-32,30.6c-17.7,0-32-13.7-32-30.6v-217l-50.4,48.2  c-12.5,11.9-32.7,11.9-45.2,0C115.9,220.6,115.9,201.3,128.4,189.3z" />
+            </svg>
+        </span>
+    </div>
+    <script src="js/Scroll-Top.js"></script>
+
+
+    <!-- about section -->
+    <div id="about">
+        <div class="containers box">
+            <div class="row">
+                <div class="col-1">5
+                    <h1 class="sub-title">About Me</h1>
+
+                    <div class="sub-line">
+                        <p>
+                            I have completed my MCA degree at Crescent University. Besides, I am a Frontend Developer and UI/UX Designer 💻 with a passion for crafting user-friendly websites and applications. I am also a Drawing Artist 🎨, expressing creativity through illustrations
+                            and designs.
+                        </p>
+                    </div>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('others')">Tools</p>
+                        <p class="tab-links4" onclick="opentab('experience')">Resume</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Frontend Development : <br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                                    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+                                    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+                                    <img src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React.js Badge">
+                                </div>
+                            </li>
+                            <li><span>UI/UX Designing : <br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/Wireframes-%230072b1.svg?style=for-the-badge&logo=sketch&logoColor=white" alt="Wireframes Badge">
+                                    <img src="https://img.shields.io/badge/Sketch-FFB387.svg?style=for-the-badge&logo=sketch&logoColor=white" alt="Sketch Badge for UI/UX Wireframing">
+                                    <img src="https://img.shields.io/badge/Prototyping-%230075d5.svg?style=for-the-badge&logo=sketch&logoColor=white" alt="Prototyping Badge">
+                                </div>
+                            </li>
+                            <li><span> Arts : <br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/Drawing-%23FF5722.svg?style=for-the-badge&logo=artstation&logoColor=white" alt="Drawing Badge">
+                                    <img src="https://img.shields.io/badge/painting-%23800000.svg?style=for-the-badge&logo=paint-brush&logoColor=white" alt="Painting Badge">
+                                    <img src="https://img.shields.io/badge/creative-%23FF5733.svg?style=for-the-badge&logo=sparkles&logoColor=white" alt="Creative Badge">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="others">
+                        <ul>
+                            <li><span>Frontend :<br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+                                    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+                                    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>Ui/Ux :<br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+                                    <img src="https://img.shields.io/badge/adobe%20xd-%23FF61F6.svg?style=for-the-badge&logo=adobe-xd&logoColor=white">
+                                    <img src="https://img.shields.io/badge/balsamiq-%23800000.svg?style=for-the-badge&logo=balsamiq&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>Office Management : <br></span>
+                                <div class="space1">
+                                    <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white"><br>
+                                    <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="Education"><b>Master of Computer Application</b> </span><br>
+                                <p>Cruscent University of Science and Technology, Chennai</p>
+                                <p align="left">2021 - 2023</p>
+                            </li><br>
+                            <li><span class="Education"><b>B.sc Computer Science</b> </span><br>
+                                <p>Jamal Mohamed College, Tiruchirappalli</p>
+                                <p align="left">2018 - 2021 </p>
+                            </li><br>
+                            <li><span class="Education"><b>HSC</b> </span><br>
+                                <p>L.K Her Sec School, Kayalpatnam</p>
+                                <p align="left">2018</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="Education"><b>Looking For Job Oppurtunity</b> </span><br>
+                                <p>Check Out My CV</p>
+                                <button class="button" onclick="window.location.href = 'resume.pdf';">
+                                    <span class="button_lg">
+                                        <span class="button_sl"></span>
+                                        <span class="button_text">Download Now</span>
+                                    </span>
+                                </button>
+                            </li><br>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="prof/pp.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- about section -->
+
+    <!-- skills Section -->
+    <h1 class="h1s box">My Skills</h1>
+    <br>
+    <div class="process-wrapperd box">
+        <div id="progress-bar-container">
+            <ul>
+                <li class="step step01 active">
+                    <div class="step-inner">Frontend</div>
+                </li>
+                <li class="step step02">
+                    <div class="step-inner">Ui/Ux</div>
+                </li>
+                <li class="step step03">
+                    <div class="step-inner">Language</div>
+                </li>
+                <li class="step step04">
+                    <div class="step-inner">Arts</div>
+                </li>
+                <li class="step step05">
+                    <div class="step-inner">Tools</div>
+                </li>
+            </ul>
+
+            <div id="line">
+                <div id="line-progress"></div>
+            </div>
+        </div>
+
+        <div id="progress-content-section">
+            <div class="section-content discovery active">
+                <div class="skills">
+                    <div class="wrapperd">
+                        <div class="carded">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">HTML</div>
+                        </div>
+                        <div class="carded js">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">CSS</div>
+                        </div>
+                        <div class="carded react">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">JavaScript</div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Frontend Developemt Skills</h2>
+            </div>
+            <div class="section-content strategy">
+                <div class="skills">
+                    <div class="wrapperd">
+                        <div class="carded java">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Wireframing</div>
+                        </div>
+
+                        <div class="carded as">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Prototyping</div>
+                        </div>
+
+                        <div class="carded firebase">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Interaction</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h2>Ui/Ux designs</h2>
+            </div>
+
+            <div class="section-content creative">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded cc">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Tamil</div>
+                        </div>
+                        <div class="carded python">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">English</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h2>Languages</h2>
+            </div>
+
+            <div class="section-content production">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded node">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Creative</div>
+                        </div>
+
+                        <div class="carded sql">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Drawing</div>
+                        </div>
+
+                        <div class="carded php">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Painting</div>
+                        </div>
+
+                    </div>
+                </div>
+                <h2>Arts</h2>
+            </div>
+
+            <div class="section-content analysis">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded git">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Git & GitHub</div>
+                        </div>
+
+                        <div class="carded figma">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Figma & Adobe XD</div>
+                        </div>
+
+                        <div class="carded canva">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Canva & Photo Editing</div>
+                        </div>
+
+                    </div>
+                </div>
+                <h2>Designing and Collaboration Skills</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let optionse = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.95,
+            fill: {
+                gradient: ["#526D82", "rgb(2, 6, 48)"]
+            },
+        };
+        $(".circled .bar")
+            .circleProgress(optionse)
+            .on("circle-animation-progress", function(event, progress, stepValue) {
+                $(this)
+                    .parent()
+                    .find("span")
+                    .text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
+        $(".js .bar").circleProgress({
+            value: 0.86,
+        });
+        $(".react .bar").circleProgress({
+            value: 0.75,
+        });
+        $(".java .bar").circleProgress({
+            value: 0.92,
+        });
+        $(".as .bar").circleProgress({
+            value: 0.88,
+        });
+        $(".firebase .bar").circleProgress({
+            value: 0.82,
+        });
+        $(".cc .bar").circleProgress({
+            value: 0.98,
+        });
+        $(".python .bar").circleProgress({
+            value: 0.84,
+        });
+        $(".node .bar").circleProgress({
+            value: 0.98,
+        });
+        $(".sql .bar").circleProgress({
+            value: 0.94,
+        });
+        $(".php .bar").circleProgress({
+            value: 0.90,
+        });
+        $(".git .bar").circleProgress({
+            value: 0.80,
+        });
+        $(".canva .bar").circleProgress({
+            value: 0.83,
+        });
+        $(".figma .bar").circleProgress({
+            value: 0.94,
+        });
+    </script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(".step").click(function() {
+            $(this).addClass("active").prevAll().addClass("active");
+            $(this).nextAll().removeClass("active");
+        });
+
+        $(".step01").click(function() {
+            $("#line-progress").css("width", "3%");
+            $(".discovery").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step02").click(function() {
+            $("#line-progress").css("width", "25%");
+            $(".strategy").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step03").click(function() {
+            $("#line-progress").css("width", "50%");
+            $(".creative").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step04").click(function() {
+            $("#line-progress").css("width", "75%");
+            $(".production").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step05").click(function() {
+            $("#line-progress").css("width", "100%");
+            $(".analysis").addClass("active").siblings().removeClass("active");
+        });
+    </script>
+
+    <!-- skill section -->
+
+    <!-- Projects section -->
+    <div id="projects">
+        <div class="containers box">
+            <h1 class="sub-title">My Projects</h1>
+            <h3 class="section-title">Frontend</h3>
+            <div class="service-list">
+                <div>
+                    <div class="card" onclick="window.location.href = '';">
+                        <div class="card9">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p1.png" width="190">
+                                <span class="p_hcolor">Portfolio</span>
+                                <p>
+                                    Personal Reponsive Portfolio Website
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> HTML , CSS <br>
+                                    <b><span class="p_color">Framework :</span></b> Vanila JS <br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/SjdartP/art-gallery-web.git';">
+                        <div class="card8">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p2.png" width="190">
+                                <span class="p_hcolor"> Art Gallery </span>
+                                <p>
+                                    Website of AutoRickshaw Management System of SUST
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> HTML , CSS <br>
+                                    <b><span class="p_color">Framework :</span></b> Java Script <br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/SjdartP/Guess-the-number.git';">
+                        <div class="card2">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p3.png" width="190">
+                                <span class="p_hcolor">Guess the Num</span>
+                                <p>
+                                    Online based products like clothes, furniture, electronics etc rent app
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> HTML , CSS <br>
+                                    <b><span class="p_color">Framework :</span></b> Java Script <br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div><br>
+            <h3 class="section-title">Ui/Ux designs</h3>
+            <div class="service-list">
+                <div>
+
+
+                    <div class="card" onclick="window.location.href = 'https://www.behance.net/gallery/184926797/anime-streaming-app';">
+                        <div class="card9">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p4.png" width="190">
+                                <span class="p_hcolor">Animax</span>
+                                <p>
+                                    Animax is a website & app for streaming anime shows
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Tools :</span></b> Figma, Adobe XD<br>
+                                    <b><span class="p_color">images :</span></b> Unsplash, google<br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/SUST-Autorickshaw-Management-System';">
+                        <div class="card8">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p5.png" width="190">
+                                <span class="p_hcolor"> Our Ocean </span>
+                                <p>
+                                    Deffding Ocean for a Defending Future
+                                </p>
+                                <p>
+
+                                    <b><span class="p_color">Tools :</span></b> Figma, Dora<br>
+                                    <b><span class="p_color">images :</span></b> Sketchfab, Unsplash
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/Rent_IT-App';">
+                        <div class="card2">
+                            <div class="position">
+                                <img align="center" class="icon" src="imgpr/p6.png" width="190">
+                                <span class="p_hcolor">Music Jar</span>
+                                <p>
+                                    Music Jar is a digital platform for streaming music
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Tools :</span></b> Figma, Adobe XD<br>
+                                    <b><span class="p_color">images :</span></b> Unsplash, google<br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+
+
+    <!-- Photographs Section -->
+    <div id="projects">
+        <div id="photographs" class="box">
+            <h1 class="sub-project">Arts</h1>
+            <div class="pos_Set">
+                <div class="slider">
+                    <span style="--i:1;"><img class="scales" src="imgart/1st comic style.jpg"></span>
+                    <span style="--i:2;"><img class="scales" src="imgart/clock and circle.jpg"></span>
+                    <span style="--i:3;"><img class="scales" src="imgart/803.jpg"></span>
+                    <span style="--i:4;"><img class="scales" src="imgart/80.jpg"></span>
+                    <span style="--i:5;"><img class="scales" src="imgart/eggplant.jpg"></span>
+                    <span style="--i:6;"><img class="scales" src="imgart/Greedy Heart.jpg"></span>
+                    <span style="--i:7;"><img class="scales" src="imgart/ocean palace.jpg"></span>
+                    <span style="--i:8;"><img class="scales" src="imgart/Spiderman 1.jpg"></span>
+                    <span style="--i:9;"><img class="scales" src="imgart/kaaba.jpg"></span>
+                    <span style="--i:10;"><img class="scales" src="imgart/Window view Eiffel Tower.jpg"></span>
+                    <span style="--i:11;"><img class="scales" src="imgart/Cartoon.jpg"></span>
+                    <span style="--i:11;"><img class="scales" src="imgart/creative.jpg"></span>
+                </div>
+            </div>
+
+            <div class="service-lists follow">
+                <button class="button buttonSet" onclick="window.location.href='https://sjdart.netlify.app/';">
+                    <span class="button_lg">
+                        <span class="button_sl"></span>
+                        <span class="button_text">view SJDart</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <!-- Photographs Section -->
+
+
+    <!-- contact me -->
+
+    <div id="contactme" class="box">
+        <section class="contact hidden">
+            <div class="contact-form">
+                <h1>Contact <span class="us">Me</spanc>
+                </h1>
+                <p>I am available for work. Connect with wih me via phone: +91 63832 39183<br>
+                    email: sajidaliaf2701@gmail.com
+                </p>
+                <form action="https://getform.io/f/aqoozlga" method="POST">
+                    <input type="name" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="subject" placeholder="Write a Subject" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+
+            </div>
+            <div class="contact-img">
+                <img class="check" src="prof/conimg.jpg">
+            </div>
+        </section>
+    </div>
+
+    <!-- contact me -->
+
+
+    <div class="Social box">
+        <div class="wrappeer">
+            
+            <div class="icon instagram" onclick="window.location.href = 'https://www.instagram.com/sjd_art.2/';">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i> </span>
+            </div>
+            <div class="icon twitter" onclick="window.location.href = 'https://x.com/Sjd2701af';">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i> </span>
+            </div>
+            <div class="icon facebook" onclick="window.location.href = 'https://in.pinterest.com/sajidali_af';">
+                <div class="tooltip">Pinterest</div>
+                <span><i class="fab fa-pinterest"></i></span>
+            </div>
+            <div class="icon github" onclick="window.location.href = 'https://github.com/SjdartP';">
+                <div class="tooltip">GitHub</div>
+                <span><i class="fab fa-github"></i> </span>
+            </div>
+            <div class="icon linkedin" onclick="window.location.href = 'https://www.linkedin.com/in/sajid-ali-185532224/';">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i> </span>
+            </div>
+            <div class="icon youtube" onclick="window.location.href = 'https://www.behance.net/sajidali188';">
+                <div class="tooltip">Behance</div>
+                <span><i class="fab fa-behance"></i></span>
+            </div>
+
+    </div>
+
+
+
+    <div class="cv box">
+        <button class="button" onclick="window.location.href = 'resume.pdf'; ">
+                <span class="button_lg ">
+                    <span class="button_sl "></span>
+                    <span class="button_text ">Download My CV</span>
+                </span>
+            </button>
+    </div>
+    </div>
+
+
+
+
+    <script src="js/animation.js"></script>
+
+
+
+    <div class="end ">
+        <p>© 2024 Sajid Ali. All rights reserved.</p>
+    </div>
+
+</body>
+
+</html>
