@@ -1,6 +1,7 @@
 # SajidAli_Portfolio [Visit My Portfolio](https://sjdportfolio.netlify.app/)
 
-<img width="1400" alt="portfolio cover page" src="https://github.com/user-attachments/assets/43a1b4f3-99fb-4e16-8ce1-f72d1e13bb25" />
+![Group 50](https://github.com/user-attachments/assets/ee36232a-def9-446b-b991-2784386b0fde)
+
 
 A visually stunning and professional portfolio designed to showcase my skills, projects, and interactive format.
 
