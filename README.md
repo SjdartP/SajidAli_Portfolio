@@ -17,4 +17,4 @@ Dark Mode Theme: A sleek, modern aesthetic with vibrant highlights for visual ap
 Responsive Layout: Optimized for seamless viewing across devices.
 Interactive Elements: Subtle animations and hover effects for an engaging user experience.
 
-This portfolio is a reflection of my dedication to blending creativity with technical expertise
+This portfolio is a reflection of my dedication to blending creativity with technical expertise.
