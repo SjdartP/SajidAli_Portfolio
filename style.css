@@ -731,6 +731,7 @@
     .contactme {
         font-family: 'Josefin Sans', sans-serif;
         margin-top: -40px;
+        text-align: center;
     }
     
     section {
@@ -1876,7 +1877,6 @@
             color: #c8ccce;
             padding-left: 40px;
         }
-        /*achievement section */
         #Achievements {
             padding-left: 160px;
             padding-right: 200px;
@@ -2649,4 +2649,33 @@
         .process-wrapperd {
             display: none;
         }
+    }
+    
+    .end {
+        text-align: center;
+    }
+    
+    .qr-section {
+        align-items: center;
+        margin-top: 20px;
+        /* Adds space between the text and the QR section */
+    }
+    
+    .qr-image {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+    }
+    
+    .qr-section a {
+        text-decoration: none;
+        color: #0073e6;
+        font-weight: normal;
+        /* Normal font weight */
+        font-size: 12px;
+        /* Smaller text size */
+        margin-bottom: 10px;
+        font-style: normal;
+        display: block;
+        /* Ensures the link is displayed on a new line below the QR code */
     }
